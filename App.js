@@ -1,12 +1,13 @@
 
 import React from "react";
-import Servicos from "./src/telas/servico";
+
 
 import 'intl';
 import 'intl/locale-data/jsonp/pt-BR'
+import Rotas from "./src/telas/Rotas";
 
 
 export default function App() {
-  return <Servicos />;
+  return <Rotas />;
 }
  
